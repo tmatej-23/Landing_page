@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    align-items: space-around;
+  }
+
+  .top-section {
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    background-color: #1F2937;
+    color: white;
+  }
+  .header {
+    background-color: #1F2937; /* Barva pozadí headeru */
+    color: #fff; /* Barva textu */
+    padding: 20px;
+    text-align: center;    
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 60px;
+  }
+  
+  .header-links {
+    float: right; /* Umístění odkazů doprava */
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .header-links ul {
+    list-style: none; /* Odstranění odrážek z seznamu */
+    margin: 0; /* Nastavení odsazení na 0 */
+    padding: 18px; /* Nastavení vnitřního odsazení na 0 */
+  }
+  
+  .header-links li {
+    display: inline-block; /* Nastavení položek seznamu jako inline bloků */
+    margin-right: 25px; /* Vzdálenost mezi položkami seznamu */
+  }
+
+  .top-subsection .top-text .title {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.top-image {
+    display: flex;
+    margin-left: 10px;
+}
+
+.top-image img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.top-subsection {
+    margin-top: 60px;
+    display: flex;
+    flex: 1;
+    height: 90vh;
+    justify-content: space-between;
+}
+
+.subtext {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    
+    }
+.mybutton {
+    background-color: #3882f6; /* Barva pozadí */
+    color: white; /* Barva textu */
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px; /* Vnitřní odsazení */
+    margin-left: 0px;
+    margin-top: 20px;
+    border: none; /* Odebrání okraje */
+    cursor: pointer; /* Změna kurzoru na ukazovátko při najetí */
+    transition: background-color 5.9s ease; 
+    border-radius: 5px;
+  }
+  
+  /* Styl tlačítka po kliknutí */
+  .mybutton:hover {
+    background-color: #e5e7eb; /* Změna barvy pozadí při najetí */
+    color: black;
+  }
+  
+  /* Styl tlačítka po stisknutí */
+  .mybutton:active {
+    background-color: #e5e7eb; /* Změna barvy pozadí při stisknutí */
+  }
+
+ /* 
+  Třída .intro-section 
+*/
+.intro-section {
+    display: flex; /* Flexboxové zobrazení */
+    flex-direction: column; /* Flexboxové položky pod sebou */
+    align-items: center; /* Položky zarovnané na střed vodorovně */
+    height: auto; /* Výška dle obsahu */
+    padding-top: 20px; /* Horní okraj 20px */
+    padding-bottom: 20px; /* Dolní okraj 20px */
+  }
+  
+  /* 
+    Třída .grid 
+  */
+  .grid {
+    display: flex; /* Flexboxové zobrazení */
+    justify-content: space-around; /* Ikony rovnoměrně rozdělené s mezerami */
+  }
+  
+  /* 
+    Třída .image-container 
+  */
+  .image-container {
+    display: flex; /* Flexboxové zobrazení */
+    flex-direction: column; /* Položky uvnitř konteineru pod sebou */
+    width: 20%; /* Šířka konteineru 20% */
+  }
+  
+  /* 
+    Třída .image-box 
+  */
+  .image-box {
+    display: flex; /* Flexboxové zobrazení */
+    align-items: center; /* Obsah zarovnaný na střed vertikálně */
+    justify-content: center; /* Obsah zarovnaný na střed horizontálně */
+    height: auto; /* Výška dle obsahu */
+    width: auto;
+    border: 2px solid #3882F6; /* Okraj 2px, barva #3882F6 */
+    border-radius: 5px; /* Okraj se zaoblenými rohy */
+  }
+  
+  /* 
+    Obrázek uvnitř .image-box 
+  */
+  .image-box img {
+    width: 100px; /* Šířka obrázku 100px */
+    height: 100px; /* Výška obrázku 100px */
+  }
+
+  /* quote section  */
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    padding: 50px;
+}
+
+.quote-container {
+    /* border:5px solid palegreen; */
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify;
+ }
+    
+.quote-owner {
+    font-size: 23px;
+    font-weight: bold;
+     align-self: flex-end;
+}
+
+/* Styly pro .sing-up-section */
+.sing-up-section {
+  display: flex; /* Flexboxové zobrazení */
+  justify-content: center; /* Zarovnání na střed vodorovně */
+  align-items: center; /* Zarovnání na střed svisle */
+  background-color: white; /* Barva pozadí */
+  padding: 50px; /* Odsazení shora a zespoda */
+}
+
+/* Styly pro .sing-up-box */
+.sing-up-box {
+  display: flex; /* Flexboxové zobrazení */
+  flex-direction: column; /* Položky pod sebou */
+  align-items: center; /* Zarovnání na střed vodorovně */
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 50px;
+}
